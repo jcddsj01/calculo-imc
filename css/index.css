@@ -16,7 +16,7 @@ body {
   
 .container {
   text-align: center;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   width: 50%;
   max-width: 100%;
@@ -33,7 +33,7 @@ label {
 
 input {
   border: 1px solid #1f5eaf;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 15px;
   width: 30%;
   padding: 6px 10px;

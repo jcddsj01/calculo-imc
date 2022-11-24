@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+  
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+  background-color: #fff;
+}
+  
+.container {
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  max-width: 100%;
+}
+
+.header {
+  padding: 25px 0;
+  color: #1f5eaf;
+}
+
+label {
+  color: #1f5eaf;
+}
+
+input {
+  border: 1px solid #1f5eaf;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 30%;
+  padding: 6px 10px;
+}
+
+p {
+  display: inline-block;
+  background-color: #ff5202;
+  color: #fff;
+  padding: 10px 25px 10px 10px;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+
+button {
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-tabela {
+  background-color: #1f5eaf;
+  color: #fff;
+  padding: 10px 25px 10px 10px;
+  border-radius: 20px;
+}
+
+#titulo-tabela {
+  color: #1f5eaf;
+}
+
+#calcular {
+  background-color: #1f5eaf;
+}
+
+#calcular:hover {
+  background-color: #184d92;
+}
+
+#limpar, #voltar {
+  background-color: #ff5202;
+}
+
+#limpar:hover, #voltar:hover {
+  background-color: #c73f00;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  padding: 0 30px;
+}

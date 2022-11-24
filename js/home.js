@@ -1,7 +1,12 @@
+$(document).ready(function() {
+    $("#altura").mask("#,##");
+    $("#peso").mask("##,##");
+});
+
 function CalcularIMC() {
-    let altura = document.getElementById("altura").value;
-    const peso = document.getElementById("peso").value;
-    const imc = peso / (altura ** 2)
+    let altura = document.getElementById("altura").value.replace(',', '.');
+    let peso = document.getElementById("peso").value.replace(',', '.');
+    let imc = peso / (altura ** 2)
 
     if (imc < 18.5) {
         document.getElementById("imc-magreza").style.backgroundColor = '#cfcfcf';
@@ -15,7 +20,7 @@ function CalcularIMC() {
         document.getElementById("imc-obesidade-grave").style.backgroundColor = '#cfcfcf';
     }
 
-    document.getElementById("resultado").innerText = 'SEU IMC: ' + imc.toFixed(2);
+    document.getElementById("resultado").innerText = 'SEU IMC: ' + imc.toFixed(2).replace(".", ",");
 }
 
 function Limpar() {

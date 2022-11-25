@@ -1,94 +1,88 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
   
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 50px 0;
-  background-color: #fff;
-}
-  
-.container {
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.507);
+  min-width: 320px;
+  max-width: 800px;
   text-align: center;
-  border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 50%;
-  max-width: 100%;
+  margin: 60px auto;
+  border-radius: 5px;
 }
 
-.header {
-  padding: 25px 0;
-  color: #1f5eaf;
+h2 {
+  padding: 5px 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  color: #fff;
+  background-color: #ff5202;
 }
 
 label {
   color: #1f5eaf;
+  font-weight: bolder;
 }
 
 input {
   border: 1px solid #1f5eaf;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
   font-size: 15px;
-  width: 30%;
+  width: 20%;
   padding: 6px 10px;
 }
 
 p {
   display: inline-block;
-  background-color: #ff5202;
-  color: #fff;
-  padding: 10px 25px 10px 10px;
-  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 10px;
   font-weight: bolder;
+  color: #1f5eaf;
+  border: 1px solid #1f5eaf;
 }
 
 button {
   padding: 10px 15px;
-  color: #fff;
-  border: none;
-  border-radius: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
   cursor: pointer;
+  font-weight: bolder;
+  color: #ff5202;
+  border: 1px solid #ff5202;
+  background-color: #fff;
 }
 
-.header-tabela {
-  background-color: #1f5eaf;
-  color: #fff;
-  padding: 10px 25px 10px 10px;
-  border-radius: 20px;
-}
-
-#titulo-tabela {
-  color: #1f5eaf;
-}
-
-#calcular {
-  background-color: #1f5eaf;
-}
-
-#calcular:hover {
-  background-color: #184d92;
-}
-
-#limpar, #voltar {
-  background-color: #ff5202;
-}
-
-#limpar:hover, #voltar:hover {
-  background-color: #c73f00;
+button:hover {
+  color: #000;
+  border: 1px solid #000;
 }
 
 table {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+}
+
+h4 {
+  padding: 5px 0;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #1f5eaf;
+  color: #fff;
+}
+
+thead {
+  color: #1f5eaf;
+  font-weight: bolder;
+}
+
+tr {
+  border-bottom: 1px solid black;
 }
 
 td {
-  padding: 0 30px;
+  padding: 2px 25px;
 }

@@ -1,7 +1,16 @@
+:root {
+  --cor1: #ff5202;
+  --cor2: #1f5eaf;
+  --cor3: #fff;
+  --cor4: #000;
+
+  --fonte-padrao: "Poppins", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--fonte-padrao);
 }
   
 main {
@@ -15,17 +24,17 @@ main {
 h2 {
   padding: 5px 0;
   width: 100%;
-  color: #fff;
-  background-color: #ff5202;
+  color: var(--cor3);
+  background-color: var(--cor1);
 }
 
 label {
-  color: #1f5eaf;
+  color: var(--cor2);
   font-weight: bolder;
 }
 
 input {
-  border: 1px solid #1f5eaf;
+  border: 1px solid var(--cor2);
   border-radius: 10px;
   margin: 10px 0;
   font-size: 15px;
@@ -33,14 +42,14 @@ input {
   padding: 6px 10px;
 }
 
-p {
+small {
   display: inline-block;
   padding: 10px 15px;
   margin: 10px;
   border-radius: 10px;
   font-weight: bolder;
-  color: #1f5eaf;
-  border: 1px solid #1f5eaf;
+  color: var(--cor2);
+  border: 1px solid var(--cor2);
 }
 
 button {
@@ -48,14 +57,14 @@ button {
   margin: 20px 0;
   border-radius: 10px;
   font-weight: bolder;
-  color: #ff5202;
-  border: 1px solid #ff5202;
-  background-color: #fff;
+  color: var(--cor1);
+  border: 1px solid var(--cor1);
+  background-color: var(--cor3);
 }
 
 button:hover {
-  color: #000;
-  border: 1px solid #000;
+  color: var(--cor4);
+  border: 1px solid var(--cor4);
 }
 
 table {
@@ -65,17 +74,17 @@ table {
 
 caption {
   padding: 5px 0;
-  background-color: #1f5eaf;
-  color: #fff;
+  background-color: var(--cor2);
+  color: var(--cor3);
 }
 
 thead {
-  color: #1f5eaf;
+  color: var(--cor2);
   font-weight: bolder;
 }
 
 tr {
-  border-bottom: 1px solid #1f5eaf;
+  border-bottom: 1px solid var(--cor2);
 }
 
 th, td {

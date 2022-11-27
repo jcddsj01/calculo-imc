@@ -16,7 +16,6 @@
 <body>
     <main>
         <h2>Cálculo do IMC</h2>
-
         <div>
             <br>
             <label for="">Altura (ex.: 1,70)</label>
@@ -34,18 +33,17 @@
 
             <button onclick="CalcularIMC()" id="calcular">Calcular ></button>
             <button onclick="Limpar()" id="limpar">Limpar ></button>
-
+            
             <table>
-                <h4>VEJA A INTERPRETAÇÃO DO IMC</h4>
-
+                <caption>VEJA A INTERPRETAÇÃO DO IMC</caption>
+                <thead>
+                    <tr>
+                        <th>IMC</th>
+                        <th>CLASSIFICAÇÃO</th>
+                        <th>OBESIDADE (GRAU)</th>
+                    </tr>
+                </thead>
                 <tbody>
-                    <thead>
-                        <tr>
-                            <td>IMC</td>
-                            <td>CLASSIFICAÇÃO</td>
-                            <td>OBESIDADE (GRAU)</td>
-                        </tr>
-                    </thead>
                     <tr id="imc-magreza">
                         <td>MENOR QUE 18,5</td>
                         <td>MAGREZA</td>
@@ -74,7 +72,6 @@
                 </tbody>
             </table>
         </div>
-        <br>
     </main>
 
     <script src="https://kit.fontawesome.com/b5bb1aed38.js" crossorigin="anonymous">

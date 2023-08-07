@@ -1,6 +1,6 @@
 ## Projeto - Cálculo IMC - Índice de Massa Corpórea
 
-O código oferece uma calculadora de IMC (Índice de Massa Corpórea), que é uma medida para verificar se alguém tem um peso saudável em relação à altura. Os usuários inserem sua altura e peso para calcular o IMC automaticamente. O site também classifica o IMC, identificando se a pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade, seguindo padrões estabelecidos. É uma ferramenta útil e simples para o monitoramento da saúde e peso corporal.
+O código oferece uma calculadora de IMC (Índice de Massa Corpórea), que é uma medida para verificar se alguém tem um peso saudável em relação à altura. Os usuários inserem sua altura e peso para calcular o IMC automaticamente. O código também classifica o IMC, identificando se a pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade, seguindo padrões estabelecidos. É uma ferramenta útil e simples para o monitoramento da saúde e peso corporal.
 
 Tecnologias Utilizadas:
 * HTML: Utilizado para estruturar e definir o conteúdo da página, incluindo cabeçalhos, parágrafos, listas e imagens.

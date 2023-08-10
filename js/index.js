@@ -1,13 +1,26 @@
-$(document).ready(function() {
-    initializeMasks();
+$(document).ready(function () {
+    $("#altura").on("input", function () {
+        if ($(this).val().length >= 3) {
+            $("#peso").focus();
+        }
+    });
+
+    aplicarMascaras();
+
+    function aplicarMascaras() {
+        aplicarMascaraAltura();
+        aplicarMascaraPeso();
+    }
+
+    function aplicarMascaraAltura() {
+        $("#altura").mask("0,00");
+    }
+
+    function aplicarMascaraPeso() {
+        $('#peso').mask("#000,00", { reverse: true });
+    }
 });
 
-function initializeMasks() {
-    $("#altura").mask("#,##");
-
-    const pesoInput = $("#peso");
-    pesoInput.mask(pesoInput.val().length > 6 ? "###,##" : "##,##");
-}
 
 function changeElementStyle(id, fontWeight, backgroundColor) {
     const element = document.getElementById(id);

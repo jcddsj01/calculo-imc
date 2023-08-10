@@ -3,8 +3,24 @@
     --cor-azul: #1f5eaf;
     --cor-branco: #fff;
     --cor-preto: #000;
-    --cor-cinza-claro: #525252;
+    --cor-cinza: #525252;
     --fonte-principal: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor-laranja);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 82, 2, 0.7);
 }
 
 body {
@@ -19,22 +35,22 @@ body {
     border-radius: 5px;
 }
 
-.estrutura-imc .titulo {
+.titulo-main {
     background-color: var(--cor-laranja);
     color: var(--cor-branco);
     padding: 10px 0;
     text-align: center;
     border-radius: 5px 5px 0 0;
-    font-size: 1.250em; /* 20px */
+    font-size: 1.25em; /* 20px */
 }
 
-.estrutura-imc .paragrafo {
-    padding: 20px 20px 0 20px;
+.paragrafo {
+    padding: 20px 20px 5px 20px;
     font-size: 1em; /* 16px */
     text-align: left;
 }
 
-.estrutura-imc .calculo-imc {
+.calculo-imc {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,43 +58,45 @@ body {
     padding: 20px 0;
 }
 
-.calculo-imc .altura, .peso {
+.altura, .peso {
     color: var(--cor-azul);
     font-weight: bolder;
     padding-right: 5px;
     text-align: center;
 }
 
-.calculo-imc input {
+input {
     text-align: left;
     border-radius: 10px;
     border: 1px solid var(--cor-azul);
     margin-top: 5px;
     margin-bottom: 10px;
     width: 30%;
-    color: var(--cor-preto);
     padding: 5px 10px;
-    color: var(--cor-cinza-claro);
+    color: var(--cor-cinza);
     font-size: 0.875em; /* 14px */
 }
 
-.botao .calcular, .limpar {
+.botao button {
     padding: 12px 15px;
     margin: 20px 10px 25px 0;
     border-radius: 25px;
     border: none;
     color: var(--cor-branco);
-    background-color: var(--cor-azul);
     font-weight: bolder;
     font-size: 0.875em; /* 14px */
+    cursor: pointer;
 }
 
-.botao .limpar {
+.calcular {
+    background-color: var(--cor-azul);
+}
+
+.limpar {
     background-color: var(--cor-laranja);
 }
 
-.botao .calcular:hover, .limpar:hover {
-    cursor: pointer;
+.calcular:hover, .limpar:hover {
     opacity: 0.5;
 }
 
@@ -89,7 +107,7 @@ table {
     width: 100%;
 }
 
-table caption {
+caption {
     background-color: var(--cor-azul);
     color: var(--cor-branco);
     border-radius: 10px;
@@ -97,20 +115,20 @@ table caption {
     text-align: left;
 }
 
-table thead tr th {
+thead th {
     color: var(--cor-azul);
 }
 
-table tr {
-    border-bottom: 1px solid var(--cor-cinza-claro);
+tr {
+    border-bottom: 1px solid var(--cor-cinza);
 }
 
-table th, td {
+th, td {
     padding: 5px 35px;
 }
 
-table tbody {
-    color: var(--cor-cinza-claro);
+tbody {
+    color: var(--cor-cinza);
 }
 
 .resultado {
@@ -121,4 +139,31 @@ table tbody {
     color: var(--cor-branco);
     text-transform: uppercase;
     background-color: var(--cor-laranja);    
+}
+
+.rodape {
+    background-color: var(--cor-laranja);
+    color: var(--cor-branco);
+    margin-top: 100px;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    line-height: 25px;
+}
+
+.titulo-rodape {
+    text-align: center;
+    font-size: 1em; /* 16px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.titulo-rodape a {
+    text-decoration: none;
+    color: var(--cor-branco);
+}
+
+.titulo-rodape a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
 }

@@ -5,6 +5,18 @@ $(document).ready(function () {
         }
     });
 
+    $(document).ready(function () {
+        $("#calcular").click(function () {
+            // Obtém a posição vertical do elemento de resultado
+            const posicaoResultado = $("#resultado").offset().top;
+
+            // Faz a animação da rolagem até a posição do resultado
+            $("html, body").animate({
+                scrollTop: posicaoResultado
+            }, 1000); // Tempo da animação em milissegundos (1000ms = 1 segundo)
+        });
+    });
+
     aplicarMascaras();
 
     function aplicarMascaras() {

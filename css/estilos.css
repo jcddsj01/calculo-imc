@@ -25,98 +25,108 @@
 
 body {
     font-family: var(--fonte-principal);
-    font-size: 1.125em; /* 18px */
+    background-color: var(--cor-branco);
+    color: var(--cor-preto); 
 }
 
-.estrutura-imc {
-    margin: 50px auto;
+.estrutura {
+    width: 520px;
+    margin: 50px auto 100px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.507);
-    max-width: 490px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
 }
 
-.titulo-main {
+.titulo {
     background-color: var(--cor-laranja);
     color: var(--cor-branco);
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
     border-radius: 5px 5px 0 0;
-    font-size: 1.25em; /* 20px */
+    font-size: 1.4rem;
 }
 
 .paragrafo {
-    padding: 20px 20px 5px 20px;
-    font-size: 1em; /* 16px */
+    padding: 20px;
+    font-size: 1.1rem;
     text-align: left;
 }
 
-.calculo-imc {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px 0;
-}
-
-.altura, .peso {
-    color: var(--cor-azul);
-    font-weight: bolder;
-    padding-right: 5px;
+.estrutura-peso-e-altura {
     text-align: center;
+    margin: 10px 0 20px;
 }
 
-input {
-    text-align: left;
-    border-radius: 10px;
-    border: 1px solid var(--cor-azul);
-    margin-top: 5px;
+.paragrafo-peso, .paragrafo-altura {
+    font-weight: bold;
+    color: var(--cor-azul);
+    font-size: 1.1rem;
     margin-bottom: 10px;
-    width: 30%;
-    padding: 5px 10px;
-    color: var(--cor-cinza);
-    font-size: 0.875em; /* 14px */
 }
 
-.botao button {
-    padding: 12px 15px;
-    margin: 20px 10px 25px 0;
-    border-radius: 25px;
+.entrada-peso, .entrada-altura {
+    border-radius: 5px;
+    border: 2px solid var(--cor-azul);
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    width: 11.25rem;
+}
+
+.botao-calcular-e-limpar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botao-calcular, .botao-limpar {
+    padding: 10px;
+    margin: 0 10px 15px 0;
+    border-radius: 5px;
     border: none;
     color: var(--cor-branco);
     font-weight: bolder;
-    font-size: 0.875em; /* 14px */
     cursor: pointer;
+    text-transform: uppercase;
 }
 
-.calcular {
-    background-color: var(--cor-azul);
+.botao-calcular:hover, .botao-limpar:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    opacity: 0.8;
 }
 
-.limpar {
+.botao-calcular {
     background-color: var(--cor-laranja);
 }
 
-.calcular:hover, .limpar:hover {
-    opacity: 0.5;
+.botao-limpar {
+    background-color: var(--cor-azul);
+}
+
+.tabela {
+    margin: 0 20px 30px;
 }
 
 table {
-    margin-top: 10px;
     text-align: left;
     border-collapse: collapse;
+    margin: 0 auto;
     width: 100%;
 }
 
 caption {
     background-color: var(--cor-azul);
     color: var(--cor-branco);
-    border-radius: 10px;
-    padding: 10px 0 10px 20px;
-    text-align: left;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    text-transform: uppercase;
 }
 
-thead th {
+thead {
     color: var(--cor-azul);
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 tr {
@@ -124,46 +134,48 @@ tr {
 }
 
 th, td {
-    padding: 5px 35px;
+    padding: 5px 15px;
 }
 
 tbody {
-    color: var(--cor-cinza);
+    color: var(--cor-preto);
+    font-size: 1rem;
 }
 
 .resultado {
-    border-radius: 15px;
-    border: none;
-    padding: 10px 20px 10px 10px;
-    margin-top: 20px;
+    width: 140px;
+    margin: 40px auto 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--cor-laranja);
     color: var(--cor-branco);
     text-transform: uppercase;
-    background-color: var(--cor-laranja);    
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .rodape {
     background-color: var(--cor-laranja);
     color: var(--cor-branco);
-    margin-top: 100px;
-    padding: 20px;
+    padding: 10px;
     height: auto;
     width: 100%;
     line-height: 25px;
 }
 
-.titulo-rodape {
+.rodape .titulo {
     text-align: center;
-    font-size: 1em; /* 16px */
+    font-size: 1rem;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.titulo-rodape a {
+.rodape .titulo a {
     text-decoration: none;
     color: var(--cor-branco);
 }
 
-.titulo-rodape a:hover {
+.rodape .titulo a:hover {
     text-decoration: underline;
     text-underline-position: under;
 }

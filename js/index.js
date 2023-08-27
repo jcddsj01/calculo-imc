@@ -40,7 +40,7 @@ function changeElementStyle(id, fontWeight, backgroundColor) {
     element.style.backgroundColor = backgroundColor;
 }
 
-function CalcularIMC() {
+function Calcular() {
     const altura = parseFloat(document.getElementById("altura").value.replace(',', '.'));
     const peso = parseFloat(document.getElementById("peso").value.replace(',', '.'));
     const imc = peso / (altura ** 2);

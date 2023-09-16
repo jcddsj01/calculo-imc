@@ -15,7 +15,7 @@ Implantação do Projeto no GitHub Pages: [Explore o projeto clicando aqui.](htt
 
 ---
 
-## Project - BMI (Body Mass Index) Calculation <br> Developed by me | [José Carlos • jcddsj01](https://github.com/jcddsj01)
+## Project - BMI (Body Mass Index) Calculation <br> Developed by me | José Carlos • jcddsj01
 
 The code offers a BMI (Body Mass Index) calculator, which is a measure of whether someone has a healthy weight in relation to height. Users enter their height and weight to calculate BMI automatically. The code also classifies BMI, identifying whether a person is underweight, normal weight, overweight or obese, following set standards. It is a useful and simple tool for monitoring health and body weight.
 

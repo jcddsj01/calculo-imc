@@ -1,4 +1,4 @@
-## Projeto - Cálculo IMC (Índice de Massa Corpórea) <br> Desenvolvido por minha autoria | [José Carlos • jcddsj01](https://github.com/jcddsj01)
+## Projeto - Cálculo IMC (Índice de Massa Corpórea) <br> Desenvolvido por minha autoria | José Carlos • jcddsj01
 
 O código oferece uma calculadora de IMC (Índice de Massa Corpórea), que é uma medida para verificar se alguém tem um peso saudável em relação à altura. Os usuários inserem sua altura e peso para calcular o IMC automaticamente. O código também classifica o IMC, identificando se a pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade, seguindo padrões estabelecidos. É uma ferramenta útil e simples para o monitoramento da saúde e peso corporal.
 

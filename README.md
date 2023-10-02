@@ -1,4 +1,12 @@
-## Projeto - Cálculo IMC (Índice de Massa Corpórea) <br> Desenvolvido por minha autoria | José Carlos • jcddsj01
+<h1 align="center">
+  Cálculo IMC (Índice de Massa Corpórea)
+</h1>
+
+<div align="center">
+  <img src="src/img/calculo-imc.png" width="100%" />
+</div>
+
+## Projeto - Cálculo IMC (Índice de Massa Corpórea)
 
 O código oferece uma calculadora de IMC (Índice de Massa Corpórea), que é uma medida para verificar se alguém tem um peso saudável em relação à altura. Os usuários inserem sua altura e peso para calcular o IMC automaticamente. O código também classifica o IMC, identificando se a pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade, seguindo padrões estabelecidos. É uma ferramenta útil e simples para o monitoramento da saúde e peso corporal.
 
@@ -11,11 +19,14 @@ Tecnologias Utilizadas:
 * [Google Fonts:](https://fonts.google.com/specimen/Inter) Utilizado para acessar e aplicar fontes personalizadas aos textos da página, melhorando a estilização e a legibilidade.
 * [GitHub Pages:](https://pages.github.com/) Plataforma de hospedagem gratuita para projetos estáticos, permitindo que o site seja acessível na web.
 
+Créditos:
+* Criado por minha autoria | [José Carlos • jcddsj01](https://github.com/jcddsj01)
+
 Implantação do Projeto no GitHub Pages: [Explore o projeto clicando aqui.](https://jcddsj01.github.io/calculo-imc/)
 
 ---
 
-## Project - BMI (Body Mass Index) Calculation <br> Developed by me | José Carlos • jcddsj01
+## Project - BMI (Body Mass Index) Calculation
 
 The code offers a BMI (Body Mass Index) calculator, which is a measure of whether someone has a healthy weight in relation to height. Users enter their height and weight to calculate BMI automatically. The code also classifies BMI, identifying whether a person is underweight, normal weight, overweight or obese, following set standards. It is a useful and simple tool for monitoring health and body weight.
 
@@ -27,5 +38,8 @@ Technologies used:
 * [jQuery Mask Plugin:](https://igorescobar.github.io/jQuery-Mask-Plugin/) A plugin for jQuery used to create masks on input fields, such as specific formats for numbers.
 * [Google Fonts:](https://fonts.google.com/) Used to access and apply custom fonts to page texts, improving stylization and readability.
 * [GitHub Pages:](https://pages.github.com/) Free hosting platform for static projects, allowing the website to be accessible on the web.
+
+Credits:
+* Created by me | [José Carlos • jcddsj01](https://github.com/jcddsj01)
 
 Project deployment on GitHub Pages: [Explore the project by clicking here.](https://jcddsj01.github.io/calculo-imc/)
